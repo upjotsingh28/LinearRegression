@@ -5,7 +5,7 @@ Brief Information About Data :
 
 RangeIndex: 237 entries, 0 to 236<br>
 Data columns (total 4 columns):<br>
-Gender                 237 non-null int64<br>
+Gender<p>     </p>237 non-null int64<br>
 Age Range              237 non-null int64<br>
 Head Size(cm^3)        237 non-null int64<br>
 Brain Weight(grams)    237 non-null int64<br>
