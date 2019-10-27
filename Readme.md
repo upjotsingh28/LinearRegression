@@ -3,14 +3,14 @@
 ## Output:
 Brief Information About Data :
 
-RangeIndex: 237 entries, 0 to 236
-Data columns (total 4 columns):
-Gender                 237 non-null int64
-Age Range              237 non-null int64
-Head Size(cm^3)        237 non-null int64
-Brain Weight(grams)    237 non-null int64
-dtypes: int64(4)
-memory usage: 7.5 KB
+RangeIndex: 237 entries, 0 to 236<br>
+Data columns (total 4 columns):<br>
+Gender                 237 non-null int64<br>
+Age Range              237 non-null int64<br>
+Head Size(cm^3)        237 non-null int64<br>
+Brain Weight(grams)    237 non-null int64<br>
+dtypes: int64(4)<br>
+memory usage: 7.5 KB<br>
 
 After Dropping Unnecessary Columns(Gender, Age ), We Got Data Head as : 
 
