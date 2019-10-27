@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+from sklearn import metrics
+
 HeadBrainData = pd.read_csv('headbrain.csv')
 print("\nBrief Information About Data :")
 print(HeadBrainData.info())
@@ -65,7 +67,6 @@ Root Mean Squared Error (RMSE) is the square root of the mean of the squared err
 Root Mean Squared Error
 """
 
-from sklearn import metrics
 print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
 print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
 print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
