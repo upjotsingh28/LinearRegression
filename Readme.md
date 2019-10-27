@@ -1,6 +1,6 @@
-#Linear Regression Model
+# Linear Regression Model
 
-##Output:
+## Output:
 Brief Information About Data :
 
 RangeIndex: 237 entries, 0 to 236
@@ -35,4 +35,4 @@ Root Mean Squared Error: 72.11529287182815<br>
 Model Score : 63.92 %
 <br>
 
-##Thank You
+## Thank You
