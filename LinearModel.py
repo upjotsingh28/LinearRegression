@@ -11,10 +11,8 @@ print("\nBrief Information About Data :")
 print(HeadBrainData.info())
 
 # Don't need Gender,Age Columns
-print("\nDropping Unnecessary Columns(Gender, Age )....")
+print("\nAfter Dropping Unnecessary Columns(Gender, Age ), We Got Data Head as :")
 HeadBrainData.drop(['Gender', 'Age Range'], inplace=True, axis=1)
-
-print("Now We Have : \n")
 print(HeadBrainData.head())
 
 # Getting only first column
@@ -31,12 +29,13 @@ Model.fit(x_train, y_train)
 
 # Value of M and C
 print("\nWe got Coefficient value of our Best Fit Regression Line : ", Model.coef_)
-print("and Intercept as : ", Model.intercept_)
+print("And Intercept as : ", Model.intercept_)
 
 # Prediction......
 y_pred = Model.predict(x_test)
 
 # Plotting.....
+print("Plot of our Best Fit Line :")
 plt.title("Head Size Vs Brain Weight")
 plt.xlabel("Head Size")
 plt.ylabel("Brain Weight")
